@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Fjalla One', sans-serif;
-    background-image: url("assets/img/background-zakopane.jpg");
+    background-image: url("assets/img/background.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: static; /* set the position property to static */
+    position: static;
 }
 
 nav {
@@ -46,15 +46,13 @@ nav a {
 
 nav a:hover {
     background-color: white; 
-    /* #ffcc00; */
     color: black;
 }
 
 main {
-    margin-top: 10%;
     padding: 50px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 main h2 {
@@ -70,5 +68,5 @@ main p {
 main a{
     font-size: 24px;
     margin-top: 1%;
-    color: white;
+    color: black;
 }

@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Fjalla One', sans-serif;
+    background-image: url("assets/img/background-prices.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -54,4 +55,40 @@ main {
     padding: 25px;
     text-align: center;
     color: black;
+}
+
+main h1{
+    font-size: 56px;
+    color: whitesmoke;
+    margin-top: 1%;
+}
+
+main p{
+    font-size: 23px;
+    color: whitesmoke;
+    margin-bottom: 1%;
+}
+
+main a{
+    font-size: 23px;
+    color: whitesmoke;
+}
+
+table {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
 }
