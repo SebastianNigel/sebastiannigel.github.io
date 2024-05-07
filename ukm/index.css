@@ -88,13 +88,13 @@ main {
 .card h2 {
     font-size: 24px;
     padding: 10px 20px;
-    margin-bottom: 10px;
+    margin-bottom: -3%;
 }
 
 .card p {
     font-size: 16px;
     padding: 10px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
 }
 
 .card a {
@@ -126,4 +126,15 @@ p{
     font-size: 22px;
     margin-right: 10%;
     margin-left: 10%;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+footer p {
+    color: white;
+    margin: 0 auto;
 }

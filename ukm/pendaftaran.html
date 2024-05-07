@@ -17,5 +17,62 @@
             <img src="assets/LOGO-UNPAM-150x150.png" alt="Logo" class="logo">
         </nav>
     </header>
+    <main>
+        <h1>PENDAFTARAN UNIT KEGIATAN MAHASISWA</h1>
+        <h2>Universitas Pamulang</h2>
+        <P>Untuk mendaftar silahkan isi pada form di bawah ini : </P>
+        <form action="#" method="post">
+            <label for="nim">NIM:</label>
+            <input type="text" id="nim" name="nim" placeholder="Masukan NIM anda disini" required><br><br>
+    
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukan Nama anda di sini" required><br><br>
+    
+            <label for="jenis_kelamin">Jenis Kelamin:</label>
+            <select id="jenis_kelamin" name="jenis_kelamin" required>
+                <option value="">Pilih Jenis Kelamin</option>
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select><br><br>
+    
+            <label for="program_studi">Program Studi:</label>
+            <input type="text" id="program_studi" name="program_studi" placeholder="Masukan program studi anda disini" required><br><br>
+    
+            <label for="ukm">UKM yang akan diikuti:</label>
+            <select id="ukm" name="ukm" required>
+                <option value="">Pilih UKM</option>
+                <option value="Kesenian Tari">Kesenian Tari</option>
+                <option value="Pencak Silat">Pencak Silat</option>
+                <option value="Basket">Basket</option>
+                <option value="Badminton">Badminton</option>
+                <option value="Karate">Karate</option>
+                <option value="Sepak Bola">Sepak Bola</option>
+            </select><br><br>
+    
+            <label for="hari_kegiatan">Pilihan Hari Kegiatan:</label><br>
+            <div class="checkbox-group">
+                <input type="checkbox" id="senin" name="hari_kegiatan[]" value="Senin">
+                <label for="senin">Senin</label>
+                <input type="checkbox" id="selasa" name="hari_kegiatan[]" value="Selasa">
+                <label for="selasa">Selasa</label>
+                <input type="checkbox" id="rabu" name="hari_kegiatan[]" value="Rabu">
+                <label for="rabu">Rabu</label>
+                <input type="checkbox" id="kamis" name="hari_kegiatan[]" value="Kamis">
+                <label for="kamis">Kamis</label>
+                <input type="checkbox" id="jumat" name="hari_kegiatan[]" value="Jumat">
+                <label for="jumat">Jumat</label>
+            </div>
+            
+            <input type="submit" value="Simpan">
+            <input type="reset" value="Batal">
+        </form>
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <br>
+        <p>&copy; UNPAM, Managed By Sebastian Nigel.</p>
+    </footer>
 </body>
 </html>
