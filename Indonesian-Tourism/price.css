@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Fjalla One', sans-serif;
-    background-image: url("assets/img/background-prices.jpg");
+    background-color: #fff;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -46,7 +46,6 @@ nav a {
 
 nav a:hover {
     background-color: white; 
-    /* #ffcc00; */
     color: black;
 }
 
@@ -57,26 +56,26 @@ main {
     color: black;
 }
 
-main h1{
+main h1 {
     font-size: 56px;
-    color: whitesmoke;
+    color: black;
     margin-top: 1%;
 }
 
-main p{
+main p {
     font-size: 23px;
-    color: whitesmoke;
+    color: black;
     margin-bottom: 1%;
 }
 
-main a{
+main a {
     font-size: 23px;
-    color: whitesmoke;
+    color: black;
 }
 
 table {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: whitesmoke;
+    background-color: #fff;
+    color: black;
     border: 2px solid black;
     margin: 0 auto;
     width: 80%;
@@ -91,4 +90,32 @@ th, td {
 
 th {
     font-weight: bold;
+}
+
+.form {
+    margin: 20px 0;
+}
+
+label, select, input, button {
+    font-size: 18px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#totalPrice {
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
 }
